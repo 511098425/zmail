@@ -14,12 +14,12 @@ routes = [
 # 启用 D1 数据库
 [[d1_databases]]
 binding = "DB"
-database_name = "zmail"  # 替换为您的实际的数据库 NAME
-database_id = "982a6caf-1df6-43aa-9435-0e46768bc9a4"  # 需要替换为您的实际数据库 ID
+database_name = "chang"  # 替换为您的实际的数据库 NAME
+database_id = "4ad40cb9-4fd4-4f34-8db2-30be51f9e22c"  # 需要替换为您的实际数据库 ID
 
 # 设置域名
 [vars]
-VITE_EMAIL_DOMAIN = "mdzz.uk,zaunist.com"   # 替换为您的域名列表，多个域名使用逗号 , 分割。这里的域名只是用来网页上展示，方便复制粘贴使用。
+VITE_EMAIL_DOMAIN = "more-token.com"   # 替换为您的域名列表，多个域名使用逗号 , 分割。这里的域名只是用来网页上展示，方便复制粘贴使用。
 
 # 配置邮件处理
 [triggers]
